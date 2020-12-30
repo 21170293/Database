@@ -12,6 +12,7 @@
 >>> #developer can change the path and database name<br><br>
 >>> db.showDB() #This function display database if there is any<br><br>
 'MESSAGE: DATABASE IS EMPTY!'<br>
+<h2># CREATE OPERATION</h2>
 >>> #This will create a database in default location<br><br>
 >>> db.create(key="newDB",value={"name":"yash shukla"})<br><br>
 >>> #db is created<br><br>
@@ -29,8 +30,10 @@
 >>> #there is no database named "newDBs"<br><br>
 >>> #there is only one available in this time "newDB"<br><br>
 >>> db.connect("newDB")<br><br>
->>> db.read("newDB") #It returns alll the content of selected key<br><br>
+<h2># READ OPERATION</h2>
+>>> db.read("newDB") #It returns all the content of selected key<br><br>
 {'name': 'yash shukla'}<br><br>
+  
 >>> db.create(key="address",value={"house_no":"11b/12"})<br><br>
 >>> db.read("newDB")<br><br>
 {'name': 'yash shukla', 'address': {'house_no': '11b/12'}}<br><br>
@@ -57,6 +60,7 @@
     "state": "uttar pradesh"<br>
   }<br>
 }<br><br>
+<h2># DELETE OPERATION</h2>
 >>> #now performing deletion<br><br>
 >>> #lets delete "state" from "address"<br><br>
 >>> db.select("address")<br><br>
