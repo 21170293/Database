@@ -37,4 +37,24 @@
 >>> #If we want to add key-value in nested key ex:"address"<br>
 >>> #First select 'address'<br>
 >>> db.select("address")<br>
+>>> db.read("address")<br>
+{'house_no': '11b/12'}<br>
+>>> #the current cursor is in "address"<br>
+>>> #now we can add new key at "address"<br>
+>>> db.create(key="city",value="Allahabad")<br>
+>>> db.create(key="state",value="uttar pradesh")<br>
+>>> #two keys added to address now we can see it<br>
+>>> db.read("address")<br>
+{'house_no': '11b/12', 'city': 'Allahabad', 'state': 'uttar pradesh'}<br>
+>>> #now for selecting parent key object we use<br>
+>>> db.select_parent()<br>
+>>> db.read("newDB")<br>
+{<br>
+  "name": "yash shukla",<br>
+  "address": {<br>
+    "house_no": "11b/12",<br>
+    "city": "Allahabad",<br>
+    "state": "uttar pradesh"<br>
+  }<br>
+}<br>
 </p>
