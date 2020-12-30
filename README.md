@@ -72,5 +72,5 @@
     "city": "Allahabad"<br>
   }<br>
 }<br><br>
->>> #See "state is deleted"<br>
+>>> #See "state" is deleted<br>
 </p>
