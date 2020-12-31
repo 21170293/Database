@@ -3,6 +3,18 @@
 <img alt="problem_image" src="https://github.com/21170293/data/blob/master/img/assis-1.jpg" >
 <h3> I made a solution of above problem in "Python"</h3>
 <p>
+<h2> Installation Process</h2>
+<code><b>Download this file <a href="https://github.com/21170293/Database/blob/main/DB-0.2-py3-none-any.whl">DB Package</a></b></code><br>
+D:\Dowload_Directory\> pip install DB-0.2-py3-none-any.whl<br>
+{<br>
+<br>
+It executes some line of code
+<br>
+}<br>
+
+</p>
+<h3>Now on python IDE</h3>
+<p>
 >>> from DB.db import DB<br><br>
 >>> # Now Creating an object<br><br>
 >>> db=DB()<br><br>
