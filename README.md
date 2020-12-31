@@ -4,7 +4,8 @@
 <h3> I made a solution of above problem in "Python"</h3>
 <p>
 <h2> Installation Process</h2>
-# <code><b>Download this file <a href="https://github.com/21170293/Database/blob/main/DB-0.2-py3-none-any.whl">DB Package</a></b></code><br>
+<h2>Download this file </h2>
+<h3> click here ---> <a href="https://github.com/21170293/Database/blob/main/DB-0.2-py3-none-any.whl">DB Package</a></h3>
 D:\Dowload_Directory\> pip install DB-0.2-py3-none-any.whl<br>
 {<br>
 It executes some line of code
