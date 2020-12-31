@@ -44,7 +44,7 @@ It executes some line of code
 >>> #there is no database named "newDBs"<br><br>
 >>> #there is only one available in this time "newDB"<br><br>
 >>> db.connect("newDB")<br><br>
-<h2># READ OPERATION</h2>
+<h2>READ OPERATION</h2>
 >>> db.read("newDB") #It returns all the content of selected key<br><br>
 {'name': 'yash shukla'}<br><br>
   
