@@ -18,6 +18,8 @@ It executes some line of code
 >>> from DB.db import DB<br><br>
 >>> # Now Creating an object<br><br>
 >>> db=DB()<br><br>
+  <b> or you can provide either path or dbname or both</b><br>
+>>> db=DB(filename="databasename",path="databasepath")<br><br>
 >>> #Initially there isn't any database<br>
 >>> #And the default location of the database is in desktop<br>
 >>> #this is only for demonstration purpose<br>
